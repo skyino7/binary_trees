@@ -4,7 +4,7 @@
  * binary_tree_insert_left - binary tree insert
  * @parent: parent node
  * @value: value
- * Return: Null or left child node
+ * Return: Null or left child insert node
 */
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
