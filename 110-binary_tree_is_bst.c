@@ -33,5 +33,8 @@ int is_helper(const binary_tree_t *node, int min, int max)
 
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
+	if (tree == NULL)
+		return (0);
+
 	return (is_helper(tree, INT_MIN, INT_MAX));
 }
